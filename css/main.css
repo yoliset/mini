@@ -1,7 +1,5 @@
 /* Inserte su codigo aqui */
-*{
-    outline: 1px solid red;
-}
+
 .hero .principal{
      background-color:#fcce09;
     height: 450px;
@@ -38,41 +36,116 @@ header ul li {
     color: white;
     text-align: center;
     font-size: 25px;
-    margin-top: 190px;
+    margin-top: 160px;
+    
+}
+.hero .titulo {
+    text-align: center;
     
 }
 .hero small{
     position: relative;
-    top: -50px;
+    top: -30px;
     font-size: 12px;
     color: white;
+    
 }
 
-.relleno .caja {
+.relleno .caja1  {
     width: 400px;
-    height: 480px;
+    height: 460px;
 
-    margin: 0 auto;
-    margin-top: 60px;
+    margin-left: 130px;
+    margin-top: 100px;
     padding-top: 1px;
     background-color: white;
     margin-bottom: 15px;
     
 }
-.relleno .caja .cajainterior {
-    width: 290px;
-    height: 290px;
+.relleno .caja2  {
+    width: 400px;
+    height: 460px;
+    margin-top: 100px;
+    padding-top: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    
+}
+.relleno .caja3  {
+    width: 400px;
+    height: 460px;
+    margin-left: 130px;
+    margin-top: 30px;
+    padding-top: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+    
+}
+.relleno .caja4  {
+    width: 400px;
+    height: 460px;
+    margin-left: 8px;
+    margin-top: 30px;
+    padding-top: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+    
+}
+.relleno .caja1  .cajainterior {
+    width: 270px;
+    height: 270px;
     margin: 0 auto;
     background-color: darkgrey;
-
     
+}
+.relleno .caja2  .cajainterior {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    
+}
+.relleno .caja3  .cajainterior {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    
+}
+.relleno .caja4  .cajainterior {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: darkgrey;
     
 }
 .relleno .col-md-6{
     background-color: #eaeae9;
     
 }
-.relleno .caja .cajainterior h2{
+.relleno .caja1 .cajainterior h2{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px
+    
+}
+.relleno .caja2 .cajainterior h2{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px
+    
+}
+.relleno .caja3 .cajainterior h2{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px
+    
+}
+.relleno .caja4 .cajainterior h2{
     font-size: 20px;
     text-align: center;
     position: relative;
@@ -93,9 +166,12 @@ header ul li {
 .relleno h1{
     font-size: 23px;
     padding-left: 5px;
+    color: #868688;
 }
 .relleno p{
     margin-left: 12px;
+    color: #d5d8df;
+    margin-right: 8px;
 }
 .final ul {
     text-decoration: none;
