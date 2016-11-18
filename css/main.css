@@ -1,0 +1,116 @@
+/* Inserte su codigo aqui */
+*{
+    outline: 1px solid red;
+}
+.hero .principal{
+     background-color:#fcce09;
+    height: 450px;
+}
+
+
+header span {
+   
+    background-color: #fcb739;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+   position: absolute;
+    top: 60px;
+    left: 100px;
+    color: white;
+}
+header ul{
+    text-decoration: none;
+    position: relative;
+}
+header ul li {
+    display: inline-block;
+    position: relative;
+    left: 730px;
+    top: 30px;
+    font-size: 12px;
+    padding-left: 18px;
+    color: white;
+    
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 190px;
+    
+}
+.hero small{
+    position: relative;
+    top: -50px;
+    font-size: 12px;
+    color: white;
+}
+
+.relleno .caja {
+    width: 400px;
+    height: 480px;
+
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-top: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+    
+}
+.relleno .caja .cajainterior {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    background-color: darkgrey;
+
+    
+    
+}
+.relleno .col-md-6{
+    background-color: #eaeae9;
+    
+}
+.relleno .caja .cajainterior h2{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px
+    
+}
+.relleno span {
+    background-color: #fcb739;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    position: relative;
+    left: 160px;
+}
+.relleno h1{
+    font-size: 23px;
+    padding-left: 5px;
+}
+.relleno p{
+    margin-left: 12px;
+}
+.final ul {
+    text-decoration: none;
+    list-style: none;
+}
+.final li {
+    display: inline-block;
+    color:white;
+
+}
+.final
+{
+    background-color:#262624;
+    padding-bottom: 45px;
+    padding-top: 20px;
+    
+   
+}
