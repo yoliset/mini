@@ -1,6 +1,6 @@
 /* Inserte su codigo aqui */
 
-.hero .principal{
+.hero .container{
      background-color:#fcce09;
     height: 450px;
 }
@@ -173,16 +173,16 @@ header ul li {
     color: #d5d8df;
     margin-right: 8px;
 }
-.final ul {
+footer ul {
     text-decoration: none;
     list-style: none;
 }
-.final li {
+footer li {
     display: inline-block;
     color:white;
 
 }
-.final
+footer .container
 {
     background-color:#262624;
     padding-bottom: 45px;
